@@ -1,0 +1,173 @@
+
+Copyright (C) 2015 Cobham Gaisler
+All Rights Reserved
+
+
+TSIM License Agreement
+======================
+
+USE OF SOFTWARE INDICATES YOUR ACCEPTANCE OF THE TERMS OF THIS
+AGREEMENT, IF YOU DO NOT AGREE TO ALL THESE TERMS DO NOT INSTALL OR USE
+THE SOFTWARE, AND RETURN THE SOFTWARE TO THE LOCATION OF PURCHASE FOR A
+REFUND. This is a legal agreement governing use of the software program
+provided to you ("Licensee") by Cobham Gaisler. The term "SOFTWARE" also
+includes related documentation (whether in print or electronic form) and
+any updates or upgrades of the SOFTWARE provided by Cobham Gaisler, but
+does not include certain software licensed by third party licensors and
+made available to you by Cobham Gaisler under the terms of such third
+party licensor's license (including software licensed under the General
+Public License (GPL)). If Licensee has been granted an Evaluation
+License, then some of the following terms and conditions may not apply,
+refer to the sections entitled Evaluation License
+
+Evaluation License
+------------------
+If Licensee has obtained the SOFTWARE pursuant to an evaluation license,
+then, in addition to all other terms and conditions, the following
+restrictions apply: (a) The license to the SOFTWARE terminates after 21
+days (unless otherwise agreed to in writing by Cobham Gaisler); and (b)
+Licensee may use the SOFTWARE only for the sole purpose of internal
+testing and evaluation to determine whether Licensee wishes to license
+the SOFTWARE on a commercial basis. Licensee shall not use the SOFTWARE
+for any commercial purpose. If Licensee breaches any of the foregoing
+restrictions, then Licensee shall pay to Cobham Gaisler a license fee
+equal to Cobham Gaisler's standard license fee for the commercial
+version of the SOFTWARE.
+
+License
+-------
+Cobham Gaisler grants to Licensee a non-exclusive right to install the
+SOFTWARE and to use or authorize use of the SOFTWARE by up to the number
+of nodes for which Licensee has a license and for which Licensee has the
+security key(s) or authorization code(s) provided by Cobham Gaisler or
+its agents. If Licensee has obtained the SOFTWARE under a node-locked
+license, then a "node" refers to a specific machine, and the SOFTWARE
+may be installed only on the number of "nodes" or machines authorized,
+must be used only on the machine(s) on which it is installed, and may be
+accessed only by users who are physically present at that node or
+machine. A node-locked license may only be used by one user at a time
+running one instance of the software at a time. If Licensee has obtained
+the SOFTWARE under a "floating" license, then a "node" refers to a
+concurrent user or session, and the SOFTWARE may be used concurrently by
+up to the number of users or sessions indicated. All SOFTWARE must be
+used within the country for which the systems were licensed and at
+Licensee's Site (contained within a one kilometre radius); however, if
+Licensee has a floating license then remote use is permitted by
+employees who work at the site but are temporarily telecommuting to that
+same site from less than 100 kilometres away (for example, an employee
+who works at a home office on occasion), but the maximum number of
+concurrent sessions or nodes still applies. In addition, Cobham Gaisler
+grants to Licensee a non-exclusive license to copy and distribute
+internally the documentation portion of the SOFTWARE in support of its
+license to use the program portion of the SOFTWARE. For purposes of this
+Agreement the "Licensee's Site" means the location of the server on
+which the SOFTWARE resides, or when a server is not required, the
+location of the client computer for which the license was issued.
+
+Copy Restrictions
+-----------------
+This SOFTWARE is protected by international treaty provisions and
+Licensee may copy the SOFTWARE only as follows: (i) to directly support
+authorized use under the license, and (ii) in order to make a copy of
+the SOFTWARE for backup purposes. Copies must include all copyright and
+trademark notices.
+
+Use Restrictions
+----------------
+This SOFTWARE is licensed to Licensee for internal use only. Licensee
+shall not (and shall not allow any third party to): (i) decompile,
+disassemble, reverse engineer or attempt to reconstruct, identify or
+discover any source code, underlying ideas, underlying user interface
+techniques or algorithms of the SOFTWARE by any means whatever, or
+disclose any of the foregoing; (ii) provide, lease, lend, or use the
+SOFTWARE for timesharing or service bureau purposes, on an application
+service provider basis, or otherwise circumvent the internal use
+restrictions; (iii) modify, incorporate into or with other software, or
+create a derivative work of any part of the SOFTWARE; (iv) disclose the
+results of any benchmarking of the SOFTWARE, or use such results for its
+own competing software development activities, without the prior written
+permission of Cobham Gaisler; or (v) attempt to circumvent any user
+limits, or other license, timing or use restrictions that are built into
+the SOFTWARE.
+
+Ownership of the SOFTWARE
+-------------------------
+Cobham Gaisler retains all right, title, and interest in the SOFTWARE
+(including all copies), and all worldwide intellectual property rights
+therein. Cobham Gaisler reserves all rights not expressly granted to
+Licensee. This License is not a sale of the original SOFTWARE or of any
+copy.
+
+Termination
+-----------
+Cobham Gaisler may terminate this Agreement immediately if Licensee
+breaches any provision, including without limitation, failure by
+Licensee to implement the Security measures set forth above. Upon notice
+of termination by Cobham Gaisler, all rights granted to Licensee under
+this Agreement will immediately terminate, and Licensee shall cease
+using the SOFTWARE and return or destroy all copies (and partial copies)
+of the SOFTWARE and documentation.
+
+Limited Warranty and Disclaimer
+-------------------------------
+Cobham Gaisler warrants that the program portion of the SOFTWARE will
+perform substantially in accordance with the accompanying documentation
+for a period of 90 days from the date of receipt. Cobham Gaisler's
+entire liability and Licensee's exclusive remedy for a breach of the
+preceding limited warranty shall be, at Cobham Gaisler's option, either
+(a) return of the license fee, or (b) providing a fix, patch,
+work-around, or replacement of the SOFTWARE that does not meet such
+limited warranty. In either case, Licensee must return the SOFTWARE to
+Cobham Gaisler with a copy of the purchase receipt or similar
+document. Replacements are warranted for the remainder of the original
+warranty period or 30 days, whichever is longer. EXCEPT AS EXPRESSLY SET
+FORTH ABOVE, NO OTHER WARRANTIES OR CONDITIONS, EITHER EXPRESS, IMPLIED,
+STATUTORY OR OTHERWISE, ARE MADE BY COBHAM GAISLER WITH RESPECT TO THE
+SOFTWARE AND THE ACCOMPANYING DOCUMENTATION, AND COBHAM GAISLER
+EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS NOT EXPRESSLY STATED
+HEREIN, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OR
+CONDITIONS OF MERCHANTABILITY, NONINFRINGEMENT, AND FITNESS FOR A
+PARTICULAR PURPOSE. COBHAM GAISLER DO NOT WARRANT THAT THE FUNCTIONS
+CONTAINED IN THE SOFTWARE WILL MEET LICENSEE'S REQUIREMENTS, BE
+UNINTERRUPTED OR ERROR FREE, OR THAT ALL DEFECTS IN THE PROGRAM WILL BE
+CORRECTED. Licensee assumes the entire risk as to the results and
+performance of the SOFTWARE.
+
+Limitation of Liability
+-----------------------
+IN NO EVENT SHALL COBHAM GAISLER OR THEIR AGENTS BE LIABLE FOR ANY
+INDIRECT, SPECIAL, CONSEQUENTIAL OR INCIDENTAL DAMAGES WHATSOEVER
+(INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS,
+BUSINESS INTERRUPTIONS, LOSS OF BUSINESS INFORMATION, OR OTHER PECUNIARY
+LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN
+IF COBHAM GAISLER HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES. FURTHER, IN NO EVENT SHALL COBHAM GAISLER BE LIABLE FOR ANY
+DIRECT DAMAGES ARISING OUT OF LICENSEE'S USE OF THE SOFTWARE. In no
+event will Cobham Gaisler or its licensors be liable to Licensee for
+damages in an amount greater than the fees paid for the use of the
+SOFTWARE.
+
+Intellectual Property Right Infringement
+----------------------------------------
+If a claim alleging infringement of an intellectual property right
+arises concerning the SOFTWARE (including but not limited to patent,
+trade secret, copyright or trademark rights), Cobham Gaisler in its sole
+discretion may elect to defend or settle such claim, and/or terminate
+this Agreement and all rights to use the SOFTWARE, and require the
+return or destruction of the SOFTWARE, with a refund of the fees paid
+for use of the SOFTWARE less a reasonable allowance for use and
+shipping.
+
+Miscellaneous
+-------------
+This Agreement is the entire agreement between Licensee and Cobham
+Gaisler with respect to the license to the SOFTWARE, and supersedes any
+previous oral or written communications or documents (including, if you
+are obtaining an update, any agreement that may have been included with
+the initial version of the Software). This Agreement is governed by the
+laws of Sweden. If any provision, or portion thereof, of this Agreement
+is found to be invalid or unenforceable, it will be enforced to the
+extent permissible and the remainder of this Agreement will remain in
+full force and effect. Failure to prosecute a party's rights with
+respect to a default hereunder will not constitute a waiver of the right
+to enforce rights with respect to the same or any other breach.
