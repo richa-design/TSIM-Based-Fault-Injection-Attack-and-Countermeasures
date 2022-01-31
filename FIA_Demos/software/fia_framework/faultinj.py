@@ -484,7 +484,11 @@ class FaultInjector(Tsim):
                             self.refresh_regs()
                             new_regs = self.get_registers(args)
                             print(new_regs)
-                            regs += new_regs
+                            for r in new_regs:
+                            	if r == 'i6':
+                            		pass
+                            	else:
+                            		regs.append(r)
                             print(regs)
 
                             if len(regs) > regi:
