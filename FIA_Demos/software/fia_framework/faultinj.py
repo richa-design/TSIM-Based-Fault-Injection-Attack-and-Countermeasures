@@ -386,7 +386,7 @@ class FaultInjector(Tsim):
         assert(len(self.report) == (num_crashes + num_no_output + num_incorrect_out + num_correct))
         assert(num_correct == self.num_correct)
 
-        print("Correct Output = %d, Incorrect Output = %d, No Output = %d,  Processor crashed = %d," %(num_correct, num_incorrect_out, num_no_output, num_crashes))
+        self.log('Correct Output = %d, Incorrect Output = %d, No Output = %d,  Processor crashed = %d' %(num_correct, num_incorrect_out, num_no_output, num_crashes))
 
 
     def set_range(self, func_or_addr_start, func_or_addr_end):
@@ -462,7 +462,7 @@ class FaultInjector(Tsim):
                         # instruction skip
                         if self.num_skips and instr > instri and not(self.instr_modify):
                             (addr, opcode, args) = self.step()
-                            self.log(str(hex(addr)) + " " + str(opcode) + " " + args)
+                            self.log('Executed: ' + str(hex(addr)) + " " + str(opcode) + " " + args)
                             self.refresh_regs()
                             pc = self.read_reg('pc')
                             npc = self.read_reg('npc')
@@ -480,16 +480,16 @@ class FaultInjector(Tsim):
                         # Random Bit-Flip - single/multiple
                         if (self.num_bits and not(self.instr_modify)):
                             (addr, opcode, args) = self.step()
-                            self.log(str(hex(addr)) + " " + str(opcode) + " " + args)
+                            self.log('Executed: ' + str(hex(addr)) + " " + str(opcode) + " " + args)
                             self.refresh_regs()
                             new_regs = self.get_registers(args)
-                            print(new_regs)
+                            #print(new_regs)
                             for r in new_regs:
                             	if r == 'i6':
                             		pass
                             	else:
                             		regs.append(r)
-                            print(regs)
+                            #print(regs)
 
                             if len(regs) > regi:
                                 val = self.read_reg(regs[regi])
@@ -531,14 +531,14 @@ class FaultInjector(Tsim):
                             self.log('Opcode faulted at 0x%s: %s -> %s resulting in %s %s -> %s %s' % (
                             addr, hex(op), hex(fop), inst, arg, finst, farg))
                             (addr, opcode, args) = self.step()
-                            self.log(str(hex(addr)) + " " + str(opcode) + " " + args)
+                            self.log('Executed: ' + str(hex(addr)) + " " + str(opcode) + " " + args)
 
                         instr += 1
                     self.cont()
                     ftype = self.check_output()
                     break
                 except:
-                    print("An exception occurred")
+                    self.log('An exception occurred')
                     
                     
                     regs = last_regs[:]
@@ -572,7 +572,7 @@ class FaultInjector(Tsim):
 
     def log(self, s):
         if self.verbose:
-            sys.stderr.write(str(s)+'\n')
+            sys.stdout.write(str(s)+'\n')
 
 
 def run(start, end, num_faults, num_bits, cflips, num_skips, iterations, err, instr_modify, verbose, binary, correct, byte):
@@ -584,7 +584,9 @@ def run(start, end, num_faults, num_bits, cflips, num_skips, iterations, err, in
     fi.set_correct_output(correct)
     fi.set_range(start, end)
 
-    for j in range(0,iterations): fi.attack()
+    for j in range(0,iterations): 
+    	print('Iteration No. %d' %j)
+    	fi.attack()
 
     fi.produce_report()
 
